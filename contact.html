@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <title>Contact</title>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li class="grid-item-1">
+            <div class="dropdown">
+                <a class="dropbtn" href="index.html">Home</a>
+                <div class="dropdown-content">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </li>
+        <li class="grid-item-2">
+            <div class="dropdown">
+                <a class="dropbtn">Trends</a>
+                <div class="dropdown-content">
+                    <a href="winter.html">Winter</a>
+                    <a href="mixandmatch.html">Mix and Match</a>
+                    <a href="summer.html">Summer</a>
+                    <a href="Spring.html">Spring</a>
+                    <a href="autumn.html">Autumn</a>
+                </div>
+            </div>
+        </li>
+        <li class="grid-item-3"><a href="musthave.html">Must Have</a></li>
+        <li class="grid-item-4"><a href="myfavourites.html">My Favourites</a></li>
+    </ul>
+</div>
+<div class="content">
+    <div class="info">
+        <div class="contact">
+            <h1>Contact Details</h1>
+            <p>Name: Melissa Gilmore</p>
+            <p>Contact: <a href="mailto:melissagilmore1997@gmail.com">melissagilmore97@gmail.com</a></p>
+            <p>YouTube: <a href="https://www.youtube.com/channel/UC8fGaujAhTdsy-ycJwanP6A" target="_blank">YouTube</a>
+            </p>
+            <p>Facebook: <a href="https://www.facebook.com/melissanicghiollamhuire/" target="_blank">Melissa Gilmore</a>
+            </p>
+            <p>If you have a specific query and would like to contact me please fill out the following form:</p>
+        </div>
+    </div>
+    <div class="right-container">
+        <div class="info">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">First Name</label>
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
+                    </div>
+                    <label for="address">Address</label>
+                    <div>
+                        <input type="text" id="address" name="address" placeholder="Your address.." required>
+                    </div>
+                    <label for="email">Email</label>
+                    <div>
+                        <input type="text" id="email" name="email" placeholder="Email.." required>
+                    </div>
+                    <label for="phone">Phone Number</label>
+                    <div>
+                        <input type="text" id="phone" name="phone" placeholder="Phone number.." required>
+                    </div>
+                    <label for="rating">Rate My Website</label>
+                    <div>
+                        <select id="rating" name="rating" required>
+                            <option value="bad">Bad</option>
+                            <option value="good">Good</option>
+                            <option value="perfect">Perfect</option>
+                        </select>
+                    </div>
+                    <label for="recommend">Would You Recommend To a Friend?</label>
+                    <p>Yes</p>
+                    <div>
+                        <input type="radio" id="yes" name="recommend" value="yes" required>
+                    </div>
+                    <p>No</p>
+                    <div>
+                        <input type="radio" id="no" name="recommend" value="no" required>
+                    </div>
+                    <label for="agree">Tick the box to agree to being contacted</label>
+                    <div>
+                        <input type="checkbox" id="agree" name="agree" value="yes" required>
+                    </div>
+                    <label for="message">Message</label>
+                    <div>
+                    <textarea id="message" name="subject" placeholder="Write something.."
+                              style="height:200px"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <a class="grid-item-1" href="contact.html">Contact Melissa Gilmore</a>
+    <a class="grid-item-2" href="sitemap.html">Sitemap</a>
+    <a class="grid-item-3" href="https://ie.linkedin.com/in/melissa-gilmore-1b7527179" target="_blank">Built by Melissa
+        Gilmore</a>
+</footer>
+</body>
+</html>
